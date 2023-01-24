@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.text-first{
+    color: #B68C5A;
+}
 .btn-first{
     background-color: #B68C5A;
     color: #FFF;
@@ -23,4 +26,23 @@
 }
 .lh{
     line-height: 1.6rem;
+}
+.main-banner{
+    height: 75vh;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner1{
+    background-image: url('../images/slider-1.jpg'), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+}
+.banner2{
+    background-image: url('../images/slider-2.jpg'), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+}
+.banner3{
+    background-image: url('../images/slider-3.jpg'), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+}
+.slider-img{
+    width: 70px;
+    height: 70px;
 }
