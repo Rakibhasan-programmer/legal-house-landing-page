@@ -6,3 +6,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.btn-first{
+    background-color: #B68C5A;
+    color: #FFF;
+}
+.btn-first:hover{
+    border: 1px solid #B68C5A;
+    color: black;
+}
