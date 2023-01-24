@@ -14,3 +14,13 @@
     border: 1px solid #B68C5A;
     color: black;
 }
+.banner{
+    background-image: url('../images/banner.png'), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lh{
+    line-height: 1.6rem;
+}
